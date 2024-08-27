@@ -5,6 +5,10 @@
 # @Author: Yueyuan Li
 # @Version: 1.0.0
 
-from .pb2 import scenario_pb2 as scenario_pbv2
 
-__all__ = ["scenario_pbv2"]
+#TODO: Coexistence of pb2 and pb3
+
+# from .pb2 import scenario_pb2 as scenario_pbv2
+from .pb3 import scenario_pb2 as scenario_pbv3
+
+__all__ = ["scenario_pbv3"]

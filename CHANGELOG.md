@@ -5,11 +5,13 @@
 ### Added
 
 - Add carla sensor base class
+- Add C++ code implementation to improve the program running speed
 
 ### Changed
 
 - Move `test` to `tests` in the root directory.
 - Improve map rendering speed.
+- `tactics2d.dataset_parser.womd_proto`: Updated protobuf to 5.27.3.
 
 ### Fixed
 
@@ -24,7 +26,6 @@
 
 - `tactics2d.dataset_parser.NuPlanParser`: Identify the boundaries of a lane element.
 - `tactics2d.dataset_parser.WOMDParser`: Identify the boundaries of a lane element.
-- `tactics2d.dataset_parser.womd_proto`: Add compatibility to protobuf 3.x.x and 4.x.x.
 - `tactics2d.map.parser.OSMParser`: Handle the tag `highway` in `load_way` for the original [OSM label style](https://wiki.openstreetmap.org/wiki/Key:lanes).
 - `tactics2d.dataset_parser`: Improve the efficiency.
 
