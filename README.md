@@ -98,6 +98,8 @@ According to the licenses of the trajectory datasets, we cannot distribute the o
 
 You can put the downloaded files at whatever location you like. In the parser, you can specify the path to the dataset.
 
+If you need to update the protobuf version, you can run the script in '/dataset_parser/womd_proto/proto2py.sh', and also update the python package of protobuf.
+
 ### 3. Run the Tutorial
 
 ## Demo
